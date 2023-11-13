@@ -10,4 +10,9 @@ const myBooks = ["The Catcher in the Rye",
     "The Lord of the Rings",
     "The Da Vinci Code",
     "The Hunger Games"]
-
+console.group('konsol opgave')
+console.log('Jeg er en anmindelig konsol log');
+console.log(myInfo);
+console.warn('Jeg er en advarsel');
+console.error('jeg er en FEJL');
+console.table(myBooks);
